@@ -27,6 +27,6 @@ function loop(i, listWords){
 
 (function() {
     'use strict';
-    const listWords = ["herbe", "vert", "arbre"];
+    const listWords = ["maison","tête","ville","temps","porte ","pays ","route","raison ","homme","cœur","femme","dieu","amour","monde ","voiture ","jour ","temps ","monsieur ","bien","personne ","fois ","part","rue ","chambre","monde","lent","fort ","rapide","magnifique","méchant","merveilleux","belle ","brave","intelligent ","dynamique ","ancien","élégant ","nouveau","énervé ","triste","Sombre","heureux ","Mauvais","Adorable ","Possible ","Timide ","Moyen","bon ","fatigant ","sage","lent","fort ","rapide","magnifique","méchant","merveilleux","belle ","brave","intelligent ","Dynamique ","ancien","élégant ","nouveau","énervé ","triste","Sombre","heureux ","Mauvais","Adorable ","Possible ","Timide ","Moyen","bon ","Fatigant ","Sage","Rapidement","presque ","Malheureusement","bientôt ","Lentement","cependant ","Couramment ","désormais","Egalement ","davantage","Parfois","Vraiment","encore","habituellement","tellement","régulièrement","certainement","calmement.","probablement","tranquillement","précisément","jamais","beaucoup","partout","souvent"];
     loop(0, listWords);
 })();
