@@ -1,4 +1,4 @@
-# semantixsolver
+# Word Games Solver
 
 Here's a solver for many games such as Cemantix, Pedantix, Semantus and more. It will make things way easier :)
 
