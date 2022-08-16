@@ -27,6 +27,17 @@ function loop(i, listWords){
 
 (function() {
     'use strict';
-    const listWords = ["maison","tête","ville","temps","porte","pays","route","raison","homme","cœur","femme","dieu","amour","monde","voiture","jour","temps","monsieur","bien","personne","fois","part","rue","chambre","monde,être","voir","avoir","demander","pouvoir ","trouver","faire ","rendre ","mettre","venir ","dire","passer","devoir ","comprendre","prendre","rester ","donner ","tenir ","aller","porter ","vouloir","parler ","savoir ","montrer","falloir","lent","fort","rapide","magnifique","méchant","merveilleux","belle","brave","intelligent","dynamique","ancien","élégant","nouveau","énervé","triste","Sombre","heureux","Mauvais","Adorable","Possible","Timide","Moyen","bon","fatigant","sage","Rapidement","presque","Malheureusement","bientôt","Lentement","cependant","Couramment","désormais","Egalement","davantage","Parfois","Vraiment","encore","habituellement","tellement","régulièrement","certainement","calmement.","probablement","tranquillement","précisément","jamais","beaucoup","partout","souvent"]
+    const listWords = [
+        "a", "z", "e", "r", "t", "y", "u", "i", "o", "p", "q", "s", "d", "f", "g", "h", "j", "k", "l", "m", "w", "x", "c", "v", "b", "n",
+        "mais", "ou", "et", "donc", "or", "ni", "car", "a", "à", "dans", "par", "pour", "en", "vers", "avec", "deux", "de", "sans", "sous", "si", "chez",
+        "je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles",
+        "le", "la", "les", "de", "des", "selon", "mon", "ton", "son", "ses", "ces", "mien", "sien", "notre", "votre", "ce", "se", "cette",
+        "avoir", "être", "prendre", "faire", "voir", "croire", "pouvoir", "savoir", "connaître", "vivre", "mourir", "découvert",
+        "qui", "que", "quoi", "dont", "ou", "quand", "comment", "pourquoi",
+        "toujours", "jamais", "souvent", "parfois", "ensemble", "maximum", "minimum",
+        "enfant", "enfants", "fils", "fille", "parent", "parents", "père", "mère", "adulte", "mature", "seul",
+        "guerre", "soldat", "militaire", "bataille", "Vietnam", "golf",
+        "temps", "seconde", "minute", "heure", "plus", "mois", "taille", "gros", "petit", "moyen", "grand", "jour", "mois", "année", "an", "cette"
+    ];
     loop(0, listWords);
 })();
