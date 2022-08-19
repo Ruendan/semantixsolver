@@ -4,21 +4,37 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       Ruendan
-// @match        https://cemantix.herokuapp.com/
+// @include      https://cemantix.herokuapp.com/*
+// @include      https://www.semantus.fr/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=cemantix.herokuapp.com
 // @grant        none
 // ==/UserScript==
 
+let input = document.querySelector("#word-field")
+let button = document.querySelector("#go")
+let ret = false;
+switch(window.location.href){
+    case "https://cemantix.herokuapp.com/":
+        input = document.querySelector("#cemantix-guess");
+        button = document.querySelector("#cemantix-guess-btn");
+        break;
+    case "https://cemantix.herokuapp.com/pedantix":
+        input = document.querySelector("#pedantix-guess");
+        button = document.querySelector("#pedantix-guess-btn");
+        break;
+    case "https://www.semantus.fr/clap/":
+        input = document.querySelector("#word-field");
+        button = document.querySelector("#go");
+        break;
+    default:
+        ret = true;
+}
 function loop(i, listWords){
-    const input = document.querySelector("#cemantix-guess");
-    const button = document.querySelector("#cemantix-guess-btn");
+    if(ret) return;
     setTimeout(x => {
-        const a = "somethingElse";
-        console.log("somethingElse");
         if(i < listWords.length) {
             input.value = listWords[i];
             button.click();
-            console.log(listWords[i]);
             loop(i + 1, listWords);
         }
         i++;
