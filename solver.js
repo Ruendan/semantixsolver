@@ -47,7 +47,7 @@ function loop(i, listWords){
         "a", "z", "e", "r", "t", "y", "u", "i", "o", "p", "q", "s", "d", "f", "g", "h", "j", "k", "l", "m", "w", "x", "c", "v", "b", "n",
         "mais", "ou", "et", "donc", "or", "ni", "car", "a", "à", "dans", "par", "pour", "en", "vers", "avec", "deux", "de", "sans", "sous", "si", "chez",
         "je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles",
-        "le", "la", "les", "de", "des", "selon", "mon", "ton", "son", "ses", "ces", "mien", "sien", "notre", "votre", "ce", "se", "cette",
+        "le", "la", "les", "un", "une", "de", "des", "selon", "mon", "ton", "son", "ses", "ces", "mien", "sien", "notre", "votre", "ce", "se", "cette",
         "avoir", "être", "prendre", "faire", "voir", "croire", "pouvoir", "savoir", "connaître", "vivre", "mourir", "découvert",
         "qui", "que", "quoi", "dont", "ou", "quand", "comment", "pourquoi",
         "toujours", "jamais", "souvent", "parfois", "ensemble", "maximum", "minimum",
