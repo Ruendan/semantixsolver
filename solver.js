@@ -40,14 +40,18 @@ function loop(i, listWords){
         i++;
     }, 500);
 }
-
+const button_activate = document.createElement("button");
+button_activate.id= "ACTIVERSCRIPT";
+button_activate.innerText="Activer script";
+button_activate.style="position:fixed;margin-left:10%;margin-top:40%;top:0;z-index:50;";
+document.body.append(button_activate);
 (function() {
     'use strict';
     const listWords = [
         "a", "z", "e", "r", "t", "y", "u", "i", "o", "p", "q", "s", "d", "f", "g", "h", "j", "k", "l", "m", "w", "x", "c", "v", "b", "n",
         "mais", "ou", "et", "donc", "or", "ni", "car", "a", "à", "dans", "par", "pour", "en", "vers", "avec", "deux", "de", "sans", "sous", "si", "chez",
         "je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles",
-        "le", "la", "les", "un", "une", "de", "des", "selon", "mon", "ton", "son", "ses", "ces", "mien", "sien", "notre", "votre", "ce", "se", "cette",
+        "le", "la", "les", "de", "des", "selon", "mon", "ton", "son", "ses", "ces", "mien", "sien", "notre", "votre", "ce", "se", "cette",
         "avoir", "être", "prendre", "faire", "voir", "croire", "pouvoir", "savoir", "connaître", "vivre", "mourir", "découvert",
         "qui", "que", "quoi", "dont", "ou", "quand", "comment", "pourquoi",
         "toujours", "jamais", "souvent", "parfois", "ensemble", "maximum", "minimum",
@@ -55,5 +59,5 @@ function loop(i, listWords){
         "guerre", "soldat", "militaire", "bataille", "Vietnam", "golf",
         "temps", "seconde", "minute", "heure", "plus", "mois", "taille", "gros", "petit", "moyen", "grand", "jour", "mois", "année", "an", "cette"
     ];
-    loop(0, listWords);
+    button_activate.addEventListener("click",()=>loop(0,listWords));
 })();
